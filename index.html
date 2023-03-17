@@ -17,8 +17,8 @@
      <div class="nav__menu" id="nav-menu">
       <ul class="nav__list grid">
        <li class="nav__item">
-          <a href="#home" class="nav__link">
-            <i class="uil uil-estate nav__icon"></i> Home
+          <a href="#home" class="nav__link active-link">
+            <i class="uil uil-estate nav__icon "></i> Home
           </a>
        </li>
        <li class="nav__item">
@@ -50,6 +50,9 @@
       <i class="uil uil-times nav__close" id="nav-close"></i>
      </div>
      <div class="nav__btns">
+
+      <i class="uil uil-moon change-theme" id="theme-button"></i>
+
       <div class="nav__toggle" id="nav-toggle">
        <i class="uil uil-apps"></i>
       </div>
@@ -106,7 +109,6 @@
         </div>
       </div>
     </section>
-    <!-- about -->
     <section class="about section" id="about">
       <h2 class="section__title">About me</h2>
       <span class="section__subtitle">My intriduction</span>
@@ -123,14 +125,12 @@
         </div>
       </div>
     </section>
-    <!-- skills-->
     <section class="skills section" id="skills">
       <h2 class="section__title">Skills</h2>
       <span class="section__subtitle">My technical level</span>
 
       <div class="skills_container container grid">
         <div>
-        <!-- skills front  -->
 
           <div class="skills__content skills__open">
             <div class="skills__header">
@@ -182,7 +182,6 @@
             </div>
           </div>
     
-        <!-- skills back -->
         
           <div class="skills__content skills__close">
             <div class="skills__header">
@@ -194,7 +193,6 @@
               <i class="uil uil-angle-down skills__arrow"></i>
             </div>
     
-          
               <div class="skills__list grid">
                 <div class="skills_data">
                   <div class="skills__titles">
@@ -218,7 +216,6 @@
             </div>
           </div>
     
-        <!-- skills desing -->
     
           <div class="skills__content skills__close">
             <div class="skills__header">
@@ -253,7 +250,6 @@
           </div>
         </div>
       </div>
-      <!-- qualification -->
     </section>
     <section class="qualification section">
       <h2 class="section__title">Qualification</h2>
@@ -273,7 +269,6 @@
       
 
         <div class="qualification__sections">
-          <!-- content 1 -->
           <div class="qualification__content qualification__active" data-content id="education">
             <div class="qualification__data">
               <div>
@@ -290,7 +285,6 @@
               </div>
             </div>
 
-          <!--  2 -->
             <div class="qualification__data">
               <div></div>
 
@@ -309,7 +303,6 @@
               </div>
             </div>
 
-          <!--  3 -->
             <div class="qualification__data">
               <div>
                 <h3 class="qualification__title">Frontend developer</h3>
@@ -325,7 +318,6 @@
               </div>
             </div>
 
-          <!--  4 -->
             <div class="qualification__data">
               <div></div>
 
@@ -344,7 +336,6 @@
             </div>
           </div>
           
-          <!-- content 2 -->
           <div class="qualification__content" data-content id="work">
               <div class="qualification__data">
                 <div>
@@ -360,7 +351,6 @@
                   <span class="qualification__line"></span>
                 </div>
               </div>
-            <!-- 2 -->          
             <div class="qualification__data">
               <div></div>
             
@@ -381,14 +371,12 @@
         </div>
       </div>
     </section>
-    <!-- Service -->
     <section class="services section" id="service">
       <h2 class="section__title">Services</h2>
       <span class="section__subtitle">what i offer</span>
 
       <div class="services__container container grid">
 
-        <!-- SERVICE 1 -->
         <div class="services__content">
           <div>
            <i class="uil uil-arrow services__icon"></i>
@@ -427,7 +415,6 @@
           </div>
        </div>
 
-       <!-- SERVICE 2 -->
         <div class="services__content">
           <div>
             <i class="uil uil-web-grid services__icon"></i>
@@ -466,45 +453,44 @@
         </div>
       </div>
     </section>
-    <!-- Portfolio -->
-      <section class="portfolio section" id="portfolio">
+    <section class="portfolio section" id="portfolio">
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">Most recent work</span>
         <div class="portfolio__container container swiper-container">
             <div class="swiper-wrapper">
-                <!-- Portfolio 1 -->
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="./assets/img/architecture.png" alt="Portfolio proyecto " class="portfolio__img">
+                  <img src="./assets/img/ecotech.png" alt="Portfolio proyecto" class="portfolio__img">
+                  <div class="portfolio__data">
+                      <h3 class="portfolio__title">EcoTech</h3>
+                      <p class="portfolio__description">Ecotech Smart Energy es un sitio web de una empresa de tecnología y servicios que se centra en soluciones de energía renovable y eficiencia energética, con información sobre sus productos y servicios.</p>
+                      <a href="https://ecotech-smartenergy.com/" class="button button--flex button--small portfolio__button" target="_blank">
+                        Demo
+                        <i class="uil uil-arrow-right button__icon"></i>
+                      </a>
+                  </div>
+                </div>
+
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="./assets/img/architecture.png" alt="Portfolio proyecto" class="portfolio__img">
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">Architecture</h3>
-                        <p class="portfolio__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolores ullam reiciendis quod suscipit incidunt labore? Voluptas neque libero quam?.</p>
+                        <p class="portfolio__description">Architecture es un sitio web ficticio de una empresa de arquitectura, diseñado como proyecto de aprendizaje para la práctica de React.
+                        </p>
                         <a href="https://jonywhalee.github.io/architecture/" class="button button--flex button--small portfolio__button" target="_blank">
                           Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
+                          <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
                 </div>
-                <!-- Portfolio 2 -->
-                <div class="portfolio__content grid swiper-slide">
-                    <img src="./assets/img/ecotech.png" alt="Portfolio proyecto" class="portfolio__img">
-                    <div class="portfolio__data">
-                        <h3 class="portfolio__title">EcoTech</h3>
-                        <p class="portfolio__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel iste nesciunt adipisci blanditiis in quisquam amet animi consequatur! Beatae, sint!</p>
-                        <a href="https://ecotech-smartenergy.com/" class="button button--flex button--small portfolio__button" target="_blank">
-                          Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-                <!-- Portfolio 3 -->
+            
                 <div class="portfolio__content grid swiper-slide">
                     <img src="./assets/img/stoneshop.png" alt="Portfolio proyecto" class="portfolio__img">
                     <div class="portfolio__data">
                         <h3 class="portfolio__title">StoneShop</h3>
-                        <p class="portfolio__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda rem excepturi voluptates vero culpa quam perspiciatis error porro explicabo illo..</p>
+                        <p class="portfolio__description">Stone Shop es un sitio web de comercio electrónico que ofrece una amplia variedad de productos de videojuegos, con descripciones detalladas y opciones de compra para los clientes.</p>
                         <a href="https://stoneshop.netlify.app/" class="button button--flex button--small portfolio__button" target="_blank">
-                            Demo
-                            <i class="uil uil-arrow-right button__icon"></i>
+                          Demo
+                          <i class="uil uil-arrow-right button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -518,6 +504,100 @@
             <div class="swiper-pagination"></div>
         </div>
     </section>
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Phone</h3>
+              <a href="" class="contact__subtitle">+54 1140885219</a>
+            </div>
+          </div>
+          
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">Jonathandr600@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Argentina - Buenos aires</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" method="POST" class="contact__form grid" id="form">
+          <div class="contact__inputs grid">
+              <div class="contact__content">
+                  <label for="" class="contact__label">Nombre</label>
+                  <input type="text" name="nombre" class="contact__input" id="nombre" required>
+                  <span class="error"></span>
+              </div>
+              <div class="contact__content">
+                  <label for="" class="contact__label">Email</label>
+                  <input type="email" name="email" class="contact__input" id="email" required>
+                  <span class="error"></span>
+              </div>
+              <div class="contact__content">
+                  <label for="" class="contact__label">Mensaje</label>
+                  <textarea name="mensaje" class="contact__input" id="mensaje" required></textarea>
+                  <span class="error"></span>
+              </div>
+              <div class="button button--flex button-form">
+                  <input type="submit" value="Enviar">
+                  <i class="uil uil-message button__icon"></i>
+              </div>
+              <div id="response"></div>
+          </div>
+      </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Jona</h1>
+            <span class="footer__subtitle">Fullstack developer</span>
+          </div>
+          <ul class="footer__links">
+            <li>
+              <a href="#service" class="footer__link">Service</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/jonathanromerojs/"  target="_blank" class="footer__social">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=5491140885219&text=Hola%21+%3A%29&type=phone_number&app_absent=0"  target="_blank" class="footer__social">
+              <i class="uil uil-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2023 copyright all right reserved</p>
+      </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
   </main>
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
