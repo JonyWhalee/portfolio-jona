@@ -775,6 +775,10 @@ img {
 .thankyou h2{
     margin: 3rem 0;
 }
+
+textarea{
+    resize: none;
+}
 /* footer */
 .footer{
     padding-top: 2rem;
